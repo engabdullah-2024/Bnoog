@@ -1,0 +1,161 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  padding: 20px 60px;
+    background-color: black;
+    border: 3px rgb(255, 0, 191) solid;
+    color: white;
+}
+.header ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.header i{
+    display: none;
+}
+.UsBtn{
+    background-color: orange;
+   margin: 20px 60px;
+   padding-top: 12px;
+   padding-left: 12px;
+   padding-right: 12px;
+   padding-bottom: 12px;
+   font-size: 20px;
+   font-weight: bold;
+
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    height: 700px;
+    padding-top: 90px;
+    padding: 40px;
+   
+}
+.home span{
+    color: orange;
+    margin-left: 20px
+    
+}
+.home{
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    padding: 20px 60px;
+    border-radius: 8px;
+    font-size: 20px;
+   
+
+}
+.parent h1{
+    font-size: 90px;
+}
+.parent p{
+   margin-left: 20px;
+}
+.main-parent{
+    margin-left: 80px;
+    font-size: 30px;
+    padding-left: 30px;
+    margin-top: 18px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.register{
+    margin-left: 30px;
+}
+.sawiro{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-right: 60px;
+}
+
+.sawiro-main img{
+  
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    
+}
+
+
+
+ 
+
+
+.back-form{
+    background-color: white;
+    height: 510px;
+    width: 350px;
+    border-radius: 12px;
+    margin-right: 180px;
+}
+
+.formka{
+    padding: 30px;
+    margin: 16px;
+    font-size: 12px;
+}
+.formka h1, h2, p{
+    font-size: 15px;
+}
+.formka input{
+    margin: 4px;
+    border: 0.1px black solid;
+    border-radius: 4px;
+    height: 30px;
+    width: 250px;
+}
+
+@media screen and (max-width:600px){
+    .header{
+        padding: 20px;
+    }
+    .header ul{
+        display: none;
+    }
+    .header i{
+        display: block;
+        font-size: 30px;
+    }
+    .UsBtn{
+        display: none;
+    }
+    
+    .main-parent{
+        padding: 20px;
+    }
+    .main-parent h1{
+        font-size: 30px;
+    }
+    .main-parent p{
+        font-size: 20px;
+        margin-right: 80px;
+    }
+    
+    .parent{
+        flex-direction: column;
+        height: 1300px;
+    }
+    .main{
+        margin-top: 50px;
+    }
+    .mom{
+        margin-top: 80px;
+    }
+    .sawiro{
+        flex-direction: column;
+    }
+    .back-form{
+       margin-right: 20px;
+    }
+}
